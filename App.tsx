@@ -982,7 +982,8 @@ export default function App() {
           {page === "Overview" && <Overview setPage={setPage} />}
           {page === "Game Library" && <GameLibrary setPage={setPage} />}
           {page === "Experiment Lab" && <ExperimentLab />}
-          {["Tournaments", "Analytics", "Theory"].includes(page) && (
+          {page === "Tournaments" && <TournamentArena />}
+          {["Analytics", "Theory"].includes(page) && (
             <Placeholder page={page} />
           )}
         </div>
