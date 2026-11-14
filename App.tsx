@@ -1,3 +1,4 @@
+import ExperimentLab from "./features/experiments/ExperimentLab";
 import TournamentArena from "./features/tournaments/TournamentArena";
 import { useState } from "react";
 import {
