@@ -1,4 +1,4 @@
-
+import TournamentArena from "./features/tournaments/TournamentArena";
 import { useState } from "react";
 import {
   Activity,
