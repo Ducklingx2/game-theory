@@ -328,7 +328,7 @@ function Overview({ setPage }: { setPage: (page: Page) => void }) {
         />
         <StatCard
           label="BUILT-IN STRATEGIES"
-          value="05"
+          value="07"
           detail="Ready for simulation"
           icon={Shield}
         />
@@ -623,8 +623,7 @@ function ExperimentLab() {
           const actionB = getAction(
             bName,
             bHistory,
-            aReward,
-            bTriggered ? bHistory : bHistory,
+            aHistory,
             bReward,
             bTriggered
           );
