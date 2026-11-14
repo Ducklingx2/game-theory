@@ -64,6 +64,10 @@ export interface TournamentConfig {
   noise: number;
   seed: number;
   includeSelfPlay: boolean;
+
+  // If supplied, only these matchups are executed.
+  // Otherwise, the engine generates a round robin.
+  matchups?: [StrategyId, StrategyId][];
 }
 
 export interface StrategyStanding {
