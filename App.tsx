@@ -982,8 +982,9 @@ export default function App() {
           {page === "Game Library" && <GameLibrary setPage={setPage} />}
           {page === "Experiment Lab" && <ExperimentLab />}
           {page === "Tournaments" && <TournamentArena />}
+
           {["Analytics", "Theory"].includes(page) && (
-            <Placeholder page={page} />
+          <Placeholder page={page} />
           )}
         </div>
 
